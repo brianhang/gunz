@@ -582,7 +582,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>../CML/Lib/zlib.lib;fmodvc.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>C:\Users\borges-pc\Desktop\Gunz Source VS 2019 Community\gunz-master\Gunz\Runtime\theduel.exe</OutputFile>
+      <OutputFile>$(OutDir)theduel.exe</OutputFile>
       <AdditionalLibraryDirectories>../sdk/dx9/lib;../RealSound/Lib;Lib;../../sdk/crypto/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc.lib;libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
